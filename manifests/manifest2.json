@@ -1,0 +1,113 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://alison-da.github.io/Test1/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Instagram Stories",
+  "metadata" : [ ],
+  "license" : "OGL https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "description" : [ {
+    "@value" : "This is a copy of a test manifest that I have created to learn IIIF",
+    "@language" : "en"
+  } ],
+  "attribution" : "© Alison M. Davidson",
+  "sequences" : [ {
+    "@id" : "http://d11cf19f-d665-41b8-b6ea-ce1284eeca15",
+    "@type" : "sc:Sequence",
+    "viewingHint" : "paged",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://cb755312-0cf9-460d-ad4e-15738386df60",
+      "@type" : "sc:Canvas",
+      "label" : "Sheep Instagram Story",
+      "height" : 2208,
+      "width" : 1242,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2a082cd8-fe9a-4ac1-b3f2-db75dabfa186",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/sheep-story/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/sheep-story",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2208,
+          "width" : 1242
+        },
+        "on" : "http://cb755312-0cf9-460d-ad4e-15738386df60"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://35843a3c-b39e-4e6c-8119-40cf92c38e8e",
+      "@type" : "sc:Canvas",
+      "label" : "Glass beaker of coffee",
+      "height" : 4032,
+      "width" : 3024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2d649dc4-b756-4649-b1f5-e00bad2a6df2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/beaker_202303/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/beaker_202303",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4032,
+          "width" : 3024
+        },
+        "on" : "http://35843a3c-b39e-4e6c-8119-40cf92c38e8e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://8c0f03a7-9575-4a04-9b54-2348c7b8e3b4",
+      "@type" : "sc:Canvas",
+      "label" : "Cat by a dumpster",
+      "height" : 2016,
+      "width" : 1512,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://710c6a44-340a-4516-a5a2-3b63f55d1df0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/fox2_20230321/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/fox2_20230321",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2016,
+          "width" : 1512
+        },
+        "on" : "http://8c0f03a7-9575-4a04-9b54-2348c7b8e3b4"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://cb755312-0cf9-460d-ad4e-15738386df60" ]
+  } ]
+}
