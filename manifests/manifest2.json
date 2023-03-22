@@ -2,7 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://alison-da.github.io/Test1/manifests/manifest2.json",
   "@type" : "sc:Manifest",
-  "label" : "Instagram Stories",
+  "label" : "Instagram Story",
   "metadata" : [ ],
   "license" : "OGL https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "description" : [ {
