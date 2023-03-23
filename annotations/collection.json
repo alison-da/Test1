@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://alison-da.github.io/Test1/annotations/d350fc878ad6a9014226e337d9d97be4.json", "https://alison-da.github.io/Test1/annotations/1fcd2a53f365ee185619d9e6745a5e91.json" ],
+  "otherContent" : [ "https://alison-da.github.io/Test1/annotations/d350fc878ad6a9014226e337d9d97be4.json", "https://alison-da.github.io/Test1/annotations/1fcd2a53f365ee185619d9e6745a5e91.json", "https://alison-da.github.io/Test1/annotations/9f69a08d60b8dcd8253da2e57ba3ff9c.json" ],
   "@id" : "https://alison-da.github.io/Test1/annotations/collection.json",
   "label" : "All annotations loaded in alison-da/Test1 project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
