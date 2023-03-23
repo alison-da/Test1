@@ -2,7 +2,12 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://alison-da.github.io/Test1/manifests/manifest2.json",
   "@type" : "sc:Manifest",
-  "label" : "Instagram Story",
+  "label" : "Instagram Stories",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/101638476/3b88ea2015d4c3a01ff09ae560b959ff/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ ],
   "license" : "OGL https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "description" : [ {
@@ -68,6 +73,11 @@
           "width" : 3024
         },
         "on" : "http://35843a3c-b39e-4e6c-8119-40cf92c38e8e"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://alison-da.github.io/Test1/annotations/d350fc878ad6a9014226e337d9d97be4.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
