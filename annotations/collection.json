@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://alison-da.github.io/Test1/annotations/d350fc878ad6a9014226e337d9d97be4.json" ],
+  "@id" : "https://alison-da.github.io/Test1/annotations/collection.json",
+  "label" : "All annotations loaded in alison-da/Test1 project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
