@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Blue, glass straw.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Blue, glass straw.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/101638476",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-03-23T09:55:14",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1679565314420",
+    "dcterms:modified" : "2023-03-23T09:55:14",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://alison-da.github.io/Test1/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2412,647,489,545"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2483.31868,726.72476c45.16045,-45.7955 108.86658,-79.89786 172.88143,-79.85711v0v0c64.01485,0.04074 119.78252,31.94295 172.88143,79.85711c53.09891,47.91416 73.73778,120.9261 71.60983,192.79213c-2.12795,71.86602 -27.02272,142.58614 -71.60983,192.79213c-44.58712,50.20599 -108.86658,79.89786 -172.88143,79.85711c-64.01485,-0.04074 -127.76508,-29.8141 -172.88143,-79.85711c-45.11635,-50.04302 -71.59881,-120.35569 -71.60983,-192.79213c-0.01103,-72.43643 26.44938,-146.99663 71.60983,-192.79213z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_eedfb0c2-6ebd-4807-88af-7d0e1a2458c6\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://35843a3c-b39e-4e6c-8119-40cf92c38e8e"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Coffee",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Coffee</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/101638476",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-03-23T09:55:24",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1679565324787",
+    "dcterms:modified" : "2023-03-23T09:55:24",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://alison-da.github.io/Test1/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=981,1841,858,252"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M981.24464,1840.95279h428.81116v0h428.81116v125.97854v125.97854h-428.81116h-428.81116v-125.97854z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_c6f52c30-029b-43bb-92d0-7092f2e6fa85\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://35843a3c-b39e-4e6c-8119-40cf92c38e8e"
+    } ]
+  } ],
+  "@id" : "https://alison-da.github.io/Test1/annotations/d350fc878ad6a9014226e337d9d97be4.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
